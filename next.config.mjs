@@ -1,6 +1,6 @@
+import BuilderDevTools from "@builder.io/dev-tools/next";
+
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  /* config options here */
-};
+const nextConfig = BuilderDevTools({ enabled: false })({});
 
 export default nextConfig;
